@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="teretana" class="com.vladancupric.Teretana">
+		<constructor-arg name="imeTeretane" type="String"
+			value="Apolon Teretana">
+		</constructor-arg>
+		<constructor-arg>
+			<list>
+				<value>Vladan Cupric</value>
+				<value>Sasa Jakovljevic</value>
+				<value>Sandra Grujic</value>
+				<value>Dejan Markovic</value>
+				<value>Uros Dobrivojevic</value>
+				<value>Stefan Cupric</value>
+				<value>Filip Milosevic</value>
+			</list>
+		</constructor-arg>
+	</bean>
+</beans>
